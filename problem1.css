@@ -1,0 +1,36 @@
+div, table {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 660px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.door {
+    margin: 15px;
+}
+
+.messages {
+    width: 660px;
+    height: 125px;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    width: 100%;
+    test-align: left;
+}
+
+td, th {
+    width: 33%;
+}
+
+th {
+    background-color: #f2f2f2;
+}

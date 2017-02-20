@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Monty Hall - Problem 1</title>
+	<link rel="stylesheet" type="text/css" href="problem1.css">
+	<script src="problem1.js"></script>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>The Game of Monty Hall</h1>
+    <div class="doors">
+        <input type="image" src="closedDoor.jpg" alt="image" name="closedDoor" class="door" onclick="chooseDoor(0)">
+        <input type="image" src="closedDoor.jpg" alt="image" name="closedDoor" class="door" onclick="chooseDoor(1)">
+        <input type="image" src="closedDoor.jpg" alt="image" name="closedDoor" class="door" onclick="chooseDoor(2)">
+    </div>
+    
+    <div class="messages">
+        <h1 class="message">New Game! Choose a door!</h1>
+    </div>
+    
+    <div class="stats">
+        <table>
+            <tr>
+                <td></td>
+                <th>Wins</th>
+                <th>Losses</th>
+            </tr>
+            <tr>
+                <th>Switch</th>
+                <td id="winS"></td>
+                <td id="loseS"></td>
+            </tr>
+            <tr>
+                <th>Not Switched</th>
+                <td id="winNS"></td>
+                <td id="loseNS"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
